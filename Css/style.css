@@ -1,0 +1,94 @@
+*{
+padding:0px;
+margin:0px
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	
+form {border: 0px solid #f1f1f1;width: 25%;}
+.divheight {
+
+	height:320px;	
+	width: 100%;
+	border: 0px solid #4CAF50;
+
+}
+
+input[type=text], input[type=password] {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+
+  background-color: Tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: 0px;
+  cursor: pointer;
+  width: auto%;
+}
+
+button:hover {
+  opacity: 0.8;
+  border: 2px;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: Tomato;
+   color: white;
+   text-align: center;
+   }
+font {
+  color: white;
+}
+
+.test {
+	width: 33.33% 
+	border: 5px
+	background-color: Tomato;
+}
+
+.subdiv{
+	width: 33.33%;
+	height: 35px;
+	float: left;
+	padding:0px;
+
+}
